@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer-deoptigate-demo",
+  "version": "1.0.0",
+  "description": "Demo to show puppeteer and deoptigatee implemmentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deoptigate": "github:PavloKarabilo/deoptigate#chrome-support",
+    "gremlins.js": "^2.2.0",
+    "inquirer": "^7.3.3",
+    "puppeteer": "^5.5.0"
+  }
+}
