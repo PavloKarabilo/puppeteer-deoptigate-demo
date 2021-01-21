@@ -24,7 +24,7 @@ const runDeoptigate = () => {
           '--disable-extensions',
           '--incognito',
           '--no-sandbox',
-          '--js-flags="--trace-deopt --redirect-code-traces=true --log-all --no-logfile-per-isolate --logfile=' + __dirname + 'v8.log',
+          '--js-flags="--prof --log-all --no-logfile-per-isolate --logfile=' + __dirname + 'v8.log',
       ]
   });
 
